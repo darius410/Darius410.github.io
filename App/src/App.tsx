@@ -1,6 +1,6 @@
 
 import './components/css/index.css'
-import React from 'react'
+
 
 
 import Nav from './components/js/Nav'
@@ -15,8 +15,8 @@ function App() {
     <>  
         <Nav/>
         
-      <Hero/>
-      <About/>
+      {/* <Hero/> */}
+      {/* <About/> */}
       <Portfolio/>
       <Footer/>
      

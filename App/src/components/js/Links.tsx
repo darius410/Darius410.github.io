@@ -35,20 +35,20 @@ const handleToggle = () => {
      
             <div className="flex items-center justify-between h-20 bg-white">
                 
-                <div className="pl-20">
-                  <img src="./src/img/Untitled-1.png" className="w-3/5 self-center lg:w-1/3"/>
+                <div className="pl-5">
+                  <img src="./img/Untitled-1.png" className="w-3/5 self-center lg:pl-16"/>
 
                 </div>
               
 
-                <div className="hidden lg:text-2xl md:flex space-x-6">
+                <div className="hidden lg:text-2xl md:flex space-x-6 ">
 
-                    <div className="hidden text-black text-2xl md:flex space-x-6 pr-20">
+                    <div className="hidden items-center justify-between text-black text-3xl md:flex md:w-full md:min-w-max md:text-5xl pr-40 lg:pl-10">
 
-                        <a href="" className="hover:text-dark" >About</a>
-                        <a href="" class="hover:text-darkGrayishBlue" >Blog</a>
-                        <a href="" class="hover:text-darkGrayishBlue" >Portfolio</a>
-                        <a href="" className=" text-black bg-black" ><span> Find Me </span></a>
+                        {/* <a href="" className="hover:text-dark md:pr-6" >About</a> */}
+                        <a href="https://chaosandvideogames.com" className="hover:text-darkGrayishBlue pr-12" >Blog</a>
+                        {/* <a href="" className="hover:text-darkGrayishBlue pr-6" >Portfolio</a> */}
+                        <a href="https://www.linkedin.com/in/darius-hansley-96b752147" className=" text-black bg-black w-[300px];" ><span> Find Me </span></a>
         
                     </div>
 
@@ -69,9 +69,9 @@ const handleToggle = () => {
      
             <div className="z[-20] md:hidden">
                 <div id="menu" className = {`hidden -z-20 text-3xl w-full absolute flex-col items-center self-end py-8 space-y-6 font-bold bg-white sm:self-center mobileMenu ${menuOpen ? "mobileMenu" : "hideMobileMenu"}`}  >
-                    <a href="#About" >About</a>
+                    {/* <a href="#About" >About</a> */}
                     <a href="#Blogs" >Blogs</a>
-                    <a href="#Port" >Portfolio</a>
+                    {/* <a href="#Port" >Portfolio</a> */}
                     <a href="" >Find Me</a>
                                
                 </div>
